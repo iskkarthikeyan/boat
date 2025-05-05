@@ -1,0 +1,521 @@
+*{
+    font-family: Gabriola;
+}
+body{
+    width: 100%;
+    margin: auto;
+}
+/*header*/
+a{
+    margin-right:  40px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    padding: 100px 0px;
+}
+header{
+    height:150px;
+}
+a:hover{
+    color: #707070;
+}
+navbar{
+    float: right;
+    margin: 20px 50px 10px 0px;
+}
+#ecom{
+    font-weight: bolder;
+    font-size: 40px;
+    
+    padding-left: 50px;
+}
+/*Section banner*/
+#sectionBanner{
+    background-color: transparent;
+    background-image: linear-gradient(80deg, #9525FF 0%, #4218D5 100%);
+    height:600px;
+    width: 100%;
+    display: flex;
+}
+#divBanner{
+    width: 80%;
+    margin:0;
+    padding-top: 70px;
+    padding-left: 100px;
+    z-index: 1;
+}
+#h2banner{
+    color: white;
+    font-size: 18px;
+   padding: 0px 10px;
+   margin: 0;
+}
+#h3banner{
+    color:white;
+   
+    font-size: 60px;
+    padding: 0px 10px;
+    margin:0px;
+    font-weight: 900;
+
+}
+
+#spanbanner{
+    font-size: 200px;
+    font-weight:900;
+    margin: auto;
+    color: white;
+    padding:0px 10px;
+    margin: 0;
+    width: 100%;
+}
+#btnba1{
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    background-color: #1346AF;
+    border: 2px solid white;
+    padding: 5px 40px;
+    border-radius: 30px;
+}
+#btnba2{
+    font-weight: bolder;
+    font-size: 25px;
+    color:black;
+    background-color: white;
+    border:none;
+    padding: 5px 40px;
+    border-radius: 30px;
+    margin-left: 30px;
+    
+}
+#sectionBanner img{
+
+    height: 600px;
+    width:600px;
+    margin:auto;
+}
+#btnbanner{
+    padding: 0px 50px 0px 0px;
+  
+}
+#sectionBanner #boat2{
+    display:none;
+}
+/*component*/
+#component{
+    width: 90%;
+    height:900px;
+    display:block;
+    margin: auto;
+}
+#green{
+    width: 100%;
+    height: 200px;
+    background-color: #609386;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+}
+#gray{
+    width: 100%;
+    height: 200px;
+    background-color: #DFDFDF;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+}
+#red{
+    width: 100%;
+    height: 200px;
+    background-color: #E42E49;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+}
+#black{
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+}
+#sub{
+    color:white;
+    padding: 10px 10px 0px 10px;
+    font-size: 25px;
+    margin: 0;
+}
+#sup{
+    color: black;
+    padding: 10px 10px 0px 10px;
+    font-size: 25px;
+    margin:0;
+}
+#articleh1{
+    color: white;
+    font-size: 40px;
+    padding: 5px 0px 0px 10px;
+    margin: 0px 0px;
+}
+#btnb{
+    padding: 5px 15px;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 15px;
+    color:white;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+}
+#btnb:hover{
+    color:black;
+    background-color: white;
+
+}
+#btng{
+    padding: 5px 15px;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 15px;
+    color:black;
+    background-color: #CFFF00;
+    border: none;
+    border-radius: 25px;
+}
+#btng:hover{
+    color:#CFFF00;
+    background-color: white;
+}
+#btnw{
+    padding: 5px 15px;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 15px;
+    color:black;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+}
+#btnw:hover{
+    color:white;
+    background-color: black;
+}
+#image img{
+    width:150px;
+    height: 150px;
+   
+    margin-left: 600px;
+}
+#image2 img{
+    width:150px;
+    height: 150px;
+   
+    margin-left: 500px;
+    
+}
+#image1 img{
+    width:150px;
+    height: 150px;
+   
+    margin-left: 550px;
+    
+}
+#image3 img{
+    width:150px;
+    height: 150px;
+    margin-left: 600px;
+    
+}
+/*Section Grid*/
+
+.grid img{
+    height: 150px;
+    width: 150px;
+}
+.grid{
+    height: 300px;
+    width: 200px;
+}
+#grid-section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 90%;
+    margin: auto;
+}
+.grid{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#red-sale{
+    height: 600px;
+    width: 100%;
+    display:flex;
+    background-color: #F32C36;
+}
+#red-h{
+    height: 600px;
+    width: 100%;
+    display:flex;
+    background-color: #F32C36;
+}
+#red-h h1{
+    font-weight: 900;
+    font-size: 120px;
+    color: white;
+    margin: 10px;
+}
+#red-h img{
+    height: 600px;
+    width: 600px;
+    
+}
+#red-h p{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#red-content{
+    width: 50%;
+    height: auto;
+    
+}
+#red-content h1{
+    align-items: center;
+    margin-top: 250px;
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+}
+#red-content button{
+    padding: 5px 15px;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 15px;
+    color:white;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+}
+#red-content button:hover{
+    background-color: white;
+    color:black;
+}
+/*feedback*/
+.feed{
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    background-color: black;
+    color:white;
+    border-radius: 40px;
+    
+}
+#product{
+    height: 100px;
+    width:100px;
+}
+#fb{
+    height: auto;
+    background-color: #444444;
+    width: 100%;
+    padding-top: 50px;
+    display:flex;
+}
+footer{
+    background-color: white;
+}
+footer h1{
+    color: gray;
+    text-align: center;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+
+@media all and (max-width:700px){
+   
+    #fb{
+        display: block;
+    }
+    .feed{
+        width: 90%;
+    }
+    #btnbanner{
+        display:flex;
+    }
+
+
+
+
+
+
+    #red-sale{
+        height: auto;
+        display: block;
+    }
+    #red-h h1{
+        font-weight: 900;
+        font-size: 90px;
+        color: white;
+        margin: 10px;
+    }
+    #red-h{
+        display:block;
+        text-align: center;
+    }
+    #red-h span{
+        display:none;
+    }
+    #red-h img{
+        height: 300px;
+        width: 300px;
+    }
+    #red-content h1{
+        margin-top: 10px;
+    }
+    #grid-section{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 90%;
+        margin: auto;
+    }
+    #sub{
+        
+        font-size: 20px;
+        margin: 0;
+    }
+    #sup{
+        
+        font-size: 25px;
+    }
+    #articleh1{
+        color: white;
+        font-size: 30px;
+        padding: 5px 0px 0px 10px;
+        margin: 0px 0px;
+    }
+    #image3 img{
+        margin-left: 0;
+    }
+    #image2 img{
+        margin-left: 0;
+    }
+    #image1 img{
+        margin-left: 0;
+    }
+    #image img{
+        margin-left: 0;
+    }
+    #component{
+        height:auto;
+    }
+    #black{
+        width: 100%;
+        height: auto;
+       
+        margin: 20px 0px ;
+        display: block;
+        
+    }
+    #green{
+        width: 100%;
+        height: 300px;
+       
+        margin: 20px 0px ;
+        display: block;
+        
+    }
+    #gray{
+        width: 100%;
+        height: auto;
+       
+        margin: 20px 0px ;
+        display: block;
+        
+    }
+    #red{
+        width: 100%;
+        height: auto;
+       
+        margin: 20px 0px ;
+        display: block;
+        
+    }
+    navbar{
+        visibility:hidden;
+        height:10px
+    }
+    header{
+        height:30px;
+    }
+    #ecom{
+        font-size: 20px;
+        margin: 20px 0px 0px 0px;
+    }
+    #divBanner{
+        width: 50%;
+        margin:0;
+        padding-top: 5px;
+        padding-left: 0px;
+        z-index: 1;
+        padding-bottom: 20px;
+    }
+   
+    #h3banner{
+        color:white;
+       
+        font-size: 25px;
+        padding: 0px 10px;
+        margin:0px;
+        font-weight: 900;
+    
+    }
+    #spanbanner{
+        font-size: 50px;
+        font-weight:900;
+        margin: auto;
+        color: white;
+        padding:0px 10px;
+        margin: 0;
+        width: 100%;
+    }
+    #btnba1{
+        font-weight: bolder;
+        font-size: 10px;
+        color: white;
+        background-color: #1346AF;
+        border: 1px solid white;
+        padding: 5px 15px;
+        border-radius: 20px;
+        margin-left: 10px;
+    }
+    #btnba2{
+        font-weight: bolder;
+        font-size: 10px;
+        color:black;
+        background-color: white;
+        border:none;
+        padding: 5px 15px;
+        border-radius: 20px;
+        margin-left: 10px;
+    }
+    #sectionBanner{
+        display:block;
+        height: auto;
+    }
+    #sectionBanner img{
+
+       display: none;
+    }
+    #sectionBanner #boat2{
+        display:block;
+        height: 300px;
+        width:300px;
+        margin: 0;
+        padding: 0;
+
+    }
+}
